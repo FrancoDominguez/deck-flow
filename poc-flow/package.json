@@ -1,0 +1,10 @@
+{
+  "name": "poc-scraper",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@browserbasehq/stagehand": "^2.2.1",
+    "dotenv": "^16.5.0",
+    "zod": "^3.25.20"
+  }
+}
