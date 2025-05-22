@@ -1,0 +1,34 @@
+# Node.js dependencies
+node_modules/
+poc-flow/node_modules/
+
+# npm files (if using npm/yarn in poc-flow)
+poc-flow/package-lock.json
+poc-flow/yarn.lock
+poc-flow/package.json
+
+# Stagehand and POC outputs
+poc-flow/session.json
+poc-flow/playbook.ts
+poc-flow/record_agent.js
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python virtual environment
+venv/
+.poc-flow/venv/
+
+# Secrets and environment files
+.env
+poc-flow/.env
+
+# IDE and editor folders
+.vscode/
+.idea/
+
+# OS metadata
+.DS_Store
+Thumbs.db
